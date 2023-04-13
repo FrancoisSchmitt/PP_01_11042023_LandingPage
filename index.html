@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang=fr>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href=index.css>
+    <link rel=stylesheet href=normalize.css>
     <title>BrandName</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class=header>
+        <nav class=header-nav>
+            <ul class=header-list>
                 <li>
                     <h1>BrandName</h1>
                 </li>
             </ul>
-            <ul>
-                <li>Home</li>
-                <li>Product</li>
-                <li>Pricing</li>
-                <li>Contact</li>
+            <ul class=header-list>
+                <li class=header-list-name><a href>Home</a></li>
+                <li class=header-list-name><a href>Product</a></li>
+                <li class=header-list-name><a href>Pricing</a></li>
+                <li class=header-list-name><a href>Contact</a></li>
             </ul>
-            <ul>
-                <li>Login</li>
-                <li>Join Us</li>
+            <ul class=header-list>
+                <li class=header-list-name><a href>Login</a></li>
+                <li class=header-list-name><button>Join Us</button></li>
             </ul>
         </nav>
-        <div class="">
+    </header>
+    <section>
+        <div class>
             <ul>
                 <li>
                     <small>Online Training</small>
@@ -40,12 +44,12 @@
                 <li><button>Learn More</button></li>
             </ul>
             <ul>
-                <li><img src="./assets/technology1.png" alt=""></li>
+                <li><img src=./assets/technology1.png alt></li>
             </ul>
         </div>
         <div>
             <ul>
-                <li><img src="./assets/image5.png" alt=""></li>
+                <li><img src=./assets/image5.png alt></li>
                 <li>
                     <h3>Certified Teacher</h3>
                 </li>
@@ -55,7 +59,7 @@
                 </li>
             </ul>
             <ul>
-                <li><img src="./assets/image5.png" alt=""></li>
+                <li><img src=./assets/image5.png alt></li>
                 <li>
                     <h3>2,769 online courses</h3>
                 </li>
@@ -65,7 +69,7 @@
                 </li>
             </ul>
             <ul>
-                <li><img src="./assets/image5.png" alt=""></li>
+                <li><img src=./assets/image5.png alt></li>
                 <li>
                     <h3>Certified Teacher</h3>
                 </li>
@@ -75,116 +79,106 @@
                 </li>
             </ul>
         </div>
-    </header>
+    </section>
+    <section class=Approdable-Packages-section>
+        <div>
+            <ul>
+                <li><img src=./assets/product-cover-132sec-.png alt></li>
+            </ul>
+            <ul>
+                <li>
+                    <h1>Approdable Packages</h1>
+                </li>
+                <li>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iure culpa necessitatibus
+                        tempora voluptatibus veniam, vel iste repellat pariatur expedita officiis quidem dicta aperiam
+                        numquam aliquam quod. Totam, unde maiores?</p>
+                </li>
+                <li><a href>Learn More</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class>
+        <div>
+            <ul>
+                <li>
+                    <h1>Approdable Packages</h1>
+                </li>
+                <li>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iure culpa necessitatibus
+                        tempora voluptatibus veniam, vel iste repellat pariatur expedita officiis quidem dicta aperiam
+                        numquam aliquam quod. Totam, unde maiores?</p>
+                </li>
+                <li>
+                    <a href>Learn More</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src=./assets/product-cover-132sec-.png alt>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-    <section class="Approdable-Packages-section">
-        <div>
-            <ul>
-                <li><img src="./assets/product-cover-132sec-.png" alt=""></li>
+
+
+    <section class="video">
+        <ul>
+            <li>
+                <small>Courses</small>
+            </li>
+            <li>
+                <h1>Video in Live Action</h1>
+            </li>
+            <li>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae maxime quis iure vel pariatur in
+                    illo
+                    quaerat numquam dicta impedit esse.</p>
+            </li>
+        </ul>
+        <div class="video-container">
+            <ul class="video-content">
+                <li><img src="./assets/image10.png" alt=""></li>
+                <li><small class="video-small-info">Expert instruction</small></li>
+                <li><h2>Every Client Matters</h2><li>
+                <li><p class="video-paragraph">We focus on ergonomics and meeting you....</p></li>
+                <li><small class="video-sales">15 Sales</small></li>
+                <li><p class="video-price">$16.48 <span>$6.48</span></p></li>
+                <li><button class="video-btn">Learn More</button> </li>
             </ul>
-            <ul>
-                <li>
-                    <h1>Approdable Packages</h1>
-                </li>
-                <li>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iure culpa necessitatibus
-                        tempora voluptatibus veniam, vel iste repellat pariatur expedita officiis quidem dicta aperiam
-                        numquam aliquam quod. Totam, unde maiores?</p>
-                </li>
-                <li><a href="">Learn More</a></li>
+            <ul class="video-content">
+                <li><img src="./assets/image10.png" alt=""></li>
+                <li><small class="video-small-info">Expert instruction</small></li>
+                <li><h2>Every Client Matters</h2><li>
+                <li><p class="video-paragraph">We focus on ergonomics and meeting you....</p></li>
+                <li><small class="video-sales">15 Sales</small></li>
+                <li><p class="video-price">$16.48 <span>$6.48</span></p></li>
+                <li><button class="video-btn">Learn More</button> </li>
             </ul>
+            <ul class="video-content">
+                <li><img src="./assets/image10.png" alt=""></li>
+                <li><small class="video-small-info">Expert instruction</small></li>
+                <li><h2>Every Client Matters</h2><li>
+                <li><p class="video-paragraph">We focus on ergonomics and meeting you....</p></li>
+                <li><small class="video-sales">15 Sales</small></li>
+                <li><p class="video-price">$16.48 <span>$6.48</span></p></li>
+                <li><button class="video-btn">Learn More</button> </li>
+            </ul>
+            <ul class="video-content">
+                <li><img src="./assets/image10.png" alt=""></li>
+                <li><small class="video-small-info">Expert instruction</small></li>
+                <li><h2>Every Client Matters</h2><li>
+                <li><p class="video-paragraph">We focus on ergonomics and meeting you....</p></li>
+                <li><small class="video-sales">15 Sales</small></li>
+                <li><p class="video-price">$16.48 <span>$6.48</span></p></li>
+                <li><button class="video-btn">Learn More</button> </li>
+            </ul>
+           
         </div>
     </section>
-    <section class="">
-        <div>
-            <ul>
-                <li>
-                    <h1>Approdable Packages</h1>
-                </li>
-                <li>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iure culpa necessitatibus
-                        tempora voluptatibus veniam, vel iste repellat pariatur expedita officiis quidem dicta aperiam
-                        numquam aliquam quod. Totam, unde maiores?</p>
-                </li>
-                <li><a href="">Learn More</a></li>
-            </ul>
-            <ul>
-                <li><img src="./assets/product-cover-132sec-.png" alt=""></li>
-            </ul>
-        </div>
-    </section>
-    <section>
-        <ul>
-            <li><small>Courses</small></li>
-            <li><h1>Video in Live Action</h1></li>
-            <li><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae maxime quis iure vel pariatur in illo
-                quaerat numquam dicta impedit esse.</p></li>
-        </ul>
-        <ul>
-            <li><img src="" alt=""></li>
-            <li><small>Expert instruction</small></li>
-            <li>
-                <h2>Every Client Matters</h2>
-            </li>
-            <li>
-                <p>We focus on ergonomics
-                    and meeting you....</p>
-            </li>
-            <li><small>15 Sales</small></li>
-            <li>
-                <p>$16.48 <span>$6.48</span></p>
-            </li>
-            <li><button>Learn More</button></li>
-        </ul>
-        <ul>
-            <li><img src="" alt=""></li>
-            <li><small>Expert instruction</small></li>
-            <li>
-                <h2>Every Client Matters</h2>
-            </li>
-            <li>
-                <p>We focus on ergonomics
-                    and meeting you....</p>
-            </li>
-            <li><small>15 Sales</small></li>
-            <li>
-                <p>$16.48 <span>$6.48</span></p>
-            </li>
-            <li><button>Learn More</button></li>
-        </ul>
-        <ul>
-            <li><img src="" alt=""></li>
-            <li><small>Expert instruction</small></li>
-            <li>
-                <h2>Every Client Matters</h2>
-            </li>
-            <li>
-                <p>We focus on ergonomics
-                    and meeting you....</p>
-            </li>
-            <li><small>15 Sales</small></li>
-            <li>
-                <p>$16.48 <span>$6.48</span></p>
-            </li>
-            <li><button>Learn More</button></li>
-        </ul>
-        <ul>
-            <li><img src="" alt=""></li>
-            <li><small>Expert instruction</small></li>
-            <li>
-                <h2>Every Client Matters</h2>
-            </li>
-            <li>
-                <p>We focus on ergonomics
-                    and meeting you....</p>
-            </li>
-            <li><small>15 Sales</small></li>
-            <li>
-                <p>$16.48 <span>$6.48</span></p>
-            </li>
-            <li><button>Learn More</button></li>
-        </ul>
-    </section>
+
+
     <section>
         <ul>
             <li><small>Testimonials</small></li>
@@ -203,8 +197,6 @@
                     you need to work to reach your financial
                     goal for the month and year.</p>
             </li>
-            <!-- adding stars laters -->
-
             <li>
                 <h2>Regina Miles</h2>
             </li>
@@ -217,8 +209,6 @@
                     you need to work to reach your financial
                     goal for the month and year.</p>
             </li>
-            <!-- adding stars laters -->
-
             <li>
                 <h2>Regina Miles</h2>
             </li>
@@ -235,8 +225,8 @@
                 <p>Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics</p>
             </li>
-            <li><input type="email" placeholder="Your Email"> <button>Subscribe</button></li>
-        </ul>
+            <li><input type=email placeholder=" Your Email"> <button>Subscribe</button></li>
+            </ul>
     </section>
     <footer>
         <ul>
@@ -246,7 +236,6 @@
             <li><small>We are hiring</small></li>
             <li><small>Blog</small></li>
         </ul>
-
         <ul>
             <li><span>Legal</span></li>
             <li><small>About Us</small></li>
@@ -254,7 +243,6 @@
             <li><small>We are hiring</small></li>
             <li><small>Blog</small></li>
         </ul>
-
         <ul>
             <li><span>Features</span></li>
             <li><small>Business Marketing</small></li>
@@ -277,13 +265,8 @@
         </ul>
         <ul>
             <li><small>Made With Love By Figmaland All Right Reserved</small></li>
-            <!-- <li>
-                 add icon 
-                Facebook / twitter / Insta 
-            </li> -->
         </ul>
     </footer>
-
 </body>
 
 </html>
