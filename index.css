@@ -23,10 +23,6 @@ a {
     margin: 0;
     padding: 0;
     width: 60%;
-}
-
-.header-left {
-    width: 60%;
     margin-right: 26%;
 }
 
@@ -37,6 +33,7 @@ a {
 
 .header-title h1 {
     font-size: 24px;
+    font-weight: 700;
 }
 
 .header-log {
@@ -47,10 +44,6 @@ a {
     justify-content: space-around;
 }
 
-.header-title {
-    font-size: 24px;
-    font-weight: 700;
-}
 
 .header-list-name a {
     font-weight: 400;
@@ -145,10 +138,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: -7%;
-    /* position: absolute;
-    top: 50%;
-    left: 15%; */
-
 }
 
 .introduction-item ul {
@@ -157,18 +146,15 @@ a {
     align-items: center;
     background-color: white;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-
     padding: 0;
     width: 328px;
     height: 296px;
-
 }
 
 .introduction-item ul li {
     margin-top: 4%;
     width: 80%;
 }
-
 
 .introduction-item ul li h3 {
     font-weight: 700;
@@ -198,8 +184,6 @@ a {
     display: flex;
     flex-direction: row;
 }
-
-
 
 /* VIDEO */
 
